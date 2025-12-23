@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form>
+        <fieldset>
+        <legend>Sarkaari faram</legend>
+        <label for="text">Enter your name:</label><br/>
+        <input type="text" id="username" name="username"required><br/><br/>
+        <label for="email">Enter your mail:</label><br/>
+        <input type="email" id="email" name="email"required><br/><br/>
+
+        <label for="password">Enter your password:</label><br/>
+        <input type="password" id="password" name="pass" required><br/><br/>
+        <label for="Confirmpassword">Confirm your password:</label><br/>
+        <input type="password" id="Confirmpassword" name="Confirmpassword"><br/><br/>
+        <label>Enter your gender:</label>
+        <div class="gender-group">
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="femlae">Female</label>
+            <input type="radio" name="gender" id="others" value="others">
+            <label for="others">Others</label>
+        </div>
+        <br/><br/>
+        <label for="dob">Enter your Date of Birth :</label><br/>
+        <input type="date" id="dob" name="dob" required><br/><br/>
+        <label for="address">Enter your address</label><br/>
+        <textarea id="address" name="address"></textarea><br/><br/>
+        <input type="submit" value="submit">
+        </fieldset>
+     </form>
+    </body>
+</html>
