@@ -1,0 +1,36 @@
+.backg{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+}
+.face{
+    height: 300px;
+    width: 300px;
+    background-color: gold;
+    border-radius: 50%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+    box-shadow:10px 10px 5px black;
+}
+.eye{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    display: inline-block;
+    margin: 45px;
+    border-radius: 50%;
+    position: relative;
+    top: 50px;
+    left: 10px;
+}
+.mouth{
+    height: 50px;
+    width: 150px;
+    background-color: brown;
+    border-radius: 0 0 70px  70px;
+    position: relative;
+    top:60px;
+    left:75px;
+}
