@@ -1,0 +1,29 @@
+.container{
+    height: 300px;
+    width: 300px;
+    background-color:black ;
+    color: white;
+    animation-name:fontan ;
+    animation-duration: 5s;
+    animation-timing-function: ease-in ;
+    animation-delay: 0;
+    animation-iteration-count: 6;
+    animation-direction: reverse;
+}
+@keyframes fontan {
+    from{
+    font-size:30px;
+    }
+    to{
+        font-size: 50px;
+    }
+    
+}
+@keyframes fonta {
+    from{
+        background-color: black;
+    }
+    to{
+        background-color: green;
+    }
+}
