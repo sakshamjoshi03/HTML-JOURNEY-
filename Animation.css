@@ -6,9 +6,9 @@
     animation-name:fontan ;
     animation-duration: 5s;
     animation-timing-function: ease-in ;
-    animation-delay: 0;
+    animation-delay: 0s;
     animation-iteration-count: 6;
-    animation-direction: reverse;
+    animation-direction: normal;
 }
 @keyframes fontan {
     from{
@@ -19,11 +19,31 @@
     }
     
 }
-@keyframes fonta {
+/* @keyframes fontan {
     from{
         background-color: black;
     }
     to{
         background-color: green;
+    }
+} */
+@keyframes fontan {
+    0%{
+        background-color: aqua;
+        font-size: 30px;
+    }
+    30%{
+        background-color: blue;
+    }
+    60%{
+        background-color: green;
+        font-size: 50px;
+    }
+    90%{
+        background-color: orange;
+        font-size:80px;
+    }
+    98%{
+        background-color: red;
     }
 }
