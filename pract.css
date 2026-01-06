@@ -1,0 +1,74 @@
+.mainbox{
+    background: url("https://imgs.search.brave.com/aCRxJP4M0oyOk1NMB8eNDt__mgQwaIP_ii_0sM-zPFU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDg0ODAy/MjgucG5n");
+    background-size: cover;
+    height: 100vh;
+}
+#check{
+    display: none;
+}
+.mainbox .btn{
+    color: rgb(15, 29, 83);
+    position: absolute;
+    top: 30px;
+    font-size: 25px;
+}
+.sidebar .btn_2 {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    font-size: 22px;
+    color: rgb(0, 1, 3);
+    cursor: pointer;
+}
+
+.sidebar{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 100vh;
+    opacity: 0.6;
+    box-shadow: 0 0 10px black;
+    position: relative;
+    left: -350px;
+    transition: all 0.2s linear;
+
+}
+.heading{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    box-shadow: 0 0 6px black;
+    padding: 30px ;
+
+}
+ul{
+    list-style: none;
+}
+.menu{
+    line-height: 60px;
+    position: absolute;
+    top:100px;
+    
+}
+.sidebar .menu i{
+    position: relative;
+    right: 10px;
+}
+.sidebar  a{
+    text-decoration: none;
+}
+#check:checked ~ .sidebar{
+    left: 0px;
+    transition: all 0.2s linear;
+}
+#check:checked ~ .btn {
+    display: none;
+}
+
+li{
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+li:hover{
+    box-shadow: 0 0 6px black;
+}
