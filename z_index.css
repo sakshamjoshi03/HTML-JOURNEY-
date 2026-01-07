@@ -1,0 +1,11 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(128, 191, 128);
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: brown;
+}
