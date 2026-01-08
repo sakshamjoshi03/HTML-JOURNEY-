@@ -9,7 +9,7 @@
 .mainbox .btn{
     color: rgb(15, 29, 83);
     position: absolute;
-    top: 30px;
+    top: 70px;
     font-size: 25px;
 }
 .sidebar .btn_2 {
@@ -72,3 +72,4 @@ li{
 li:hover{
     box-shadow: 0 0 6px black;
 }
+
