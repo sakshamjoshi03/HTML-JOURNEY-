@@ -1,0 +1,18 @@
+body{
+    background: url("https://imgs.search.brave.com/MxGB1-7phy2Q39BHRseDFsaZrxTIwZDqnaDrO1x66k4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXM4LmFscGhhY29k/ZXJzLmNvbS85Mjkv/dGh1bWJiaWctOTI5/MjAyLndlYnA");
+    background-size: cover;
+
+}
+.card{
+    box-shadow:10px 10px 6px black ;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    border-radius: 20px; 
+    overflow: hidden; 
+    cursor: pointer;
+}
+.card-body{
+    background-color: gray;
+    color: rgb(6, 0, 0); 
+}
