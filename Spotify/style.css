@@ -23,7 +23,7 @@ body{
     bottom: 0;
     height:72px;
     width: 100%;
-    background-color: blue;
+    background-color: rgb(0, 0, 0);
 }
 .nav{
     height: 100px;
@@ -102,13 +102,61 @@ body{
 }
 .suggestions .card .body-1 a{
     position: relative;
-    left: 25px;
-    bottom: 5px;
+    left: 20px;
+    bottom: 7px;
     border-radius: 20px;
     text-decoration: none;
     color: #000;
     background-color: rgb(134, 143, 151);
     width: 100px;
     height: 10px;
+    padding: 5px;
     line-height: 30px;
+}
+.player {
+    height: 90px;
+    background-color: #181818;
+    color: white;
+}
+
+.lower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.time {
+    color: #b3b3b3;
+    font-size: 13px;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.volume-icon {
+    font-size: 20px;
+    color: #b3b3b3;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: #535353;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.progress {
+    width: 30%;   /* change this to simulate progress */
+    height: 100%;
+    background-color: #1db954;
+    border-radius: 10px;
 }
