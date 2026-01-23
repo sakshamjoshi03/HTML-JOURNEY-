@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!-- ✅ Material Symbols (ALL icons enabled) -->
+    <!--  Material Symbols (ALL icons enabled) -->
     <link rel="stylesheet"
      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
@@ -64,7 +64,449 @@
                 
             </div>
         </div>
-        <div class="main_box">hii</div>
+        <div class="main_box">
+            <div class="desktop">
+                
+Anchor Elements: 
+<a href="https://chatgpt.com/c/694c3a24-4d28-8323-b652-07949e1aea17">Google</a>
+---------------------------------------------------------------------
+Image Element:(to add image to page)
+<img src="link to the image" alt="alternative name" height="100px" width="200px">
+-----------------------------------------------------------------------
+Div Element:((container to hold other html element)
+<div></div>
+-----------------------------------------------------------------------
+span element(same as div, but inline)
+<span></span>
+------------------------------------------------------------------------
+<hr> tag:
+horizontal line
+-----------------------------------------------------------------------
+Sub and Sup Tag:(subscript(down->atomic number) and superscript(up->power)
+<sub></sub>
+<sup></sup>
+-----------------------------------------------------------------------
+Semantic Markup:(relates to meaning of the content)
+-structured layout
+-seo(search engine optimization) friendly
+ 
+tags:
+
+<header></header>:top highlighting part of a webite.
+<main>: to show main content not used with header or footer or navigation.
+<footer>:in the end part of a site/page
+# there is only one header, one main and one footer usually.
+<nav>: to navigate a link can be in a list as well using anchor tag.
+<article>: can write a
+<section>: realted content 
+<aside>: related links (indirectly)
+
+------------------------------------------------------------------
+HTML Entities:
+-entity is a piece of string that begins with and ampersand(&) and ends with (;)
+-&lt->less than sign
+-&nbsp-> space(longer)
+-&gt->greater than
+        <li>Dollar: &#36;</li>
+        <li>Euro: &#8364;</li>
+        <li>Pound: &#163;</li>
+        <li>Yen: &#165;</li>
+        <li>Rupee: &#8377;</li>
+        <li>Won: &#8361;</li>
+        <li>Franco: &#8355;</li>
+        <li>Bitcoin: &#8383;</li>
+
+-----------------------------------------------------------------------
+Emmets:(  essential toolkit for web dev)
+-----------------------------------------------------------------------
+Name Attributes:
+<form action="https://www.bing.com/search">
+    <input type="text" placeholder="Enter text to search on" name="q">
+    <button>submit</button>
+    </form>
+
+
+--------------------------------------------------------------------------
+Text Properties:
+-text-align: left/start , right/left , center , justify;
+    border: solid;
+      width: __%;
+
+
+-font-weight : 100-900; // normal->400(or write normal,bold)
+-font-size:__px;
+-font-family:arial,Calibri,Candara,copperplate;
+
+
+-text-decoration: underline , overline , line-through  ( appearance of decorative lines on text)
+
+
+-line-height: normal,2.5(2.5 times normal)
+-letter spacing: 10px;,normal
+
+
+----------------------------------------------------------------------------
+BOX PROPERTIES:
+
+
+- Height: 100px
+
+- Width: 100px
+
+-Border:
+   - border-width
+   - border-style
+   - border-color
+
+
+   - border-left
+   - border-right
+   - border-top
+
+//////// -- border-radius:10px(rounded)
+
+or we can use BORDER Shorthand : width | style | color
+ border: 2px solid blue
+
+--------------------------------------------------------------------------
+PADDING:
+ - padding-left/right/top/bottom:
+Padding Shorthand:
+1) For all four sidess
+     - padding:50px;
+2) top & bottom | left and right
+     - padding: 1px 2px;
+3) top | left and right | bottom 
+     - padding: 1px 2px 3 px
+4) top| right | bottom | left
+     - padding 1px 2px 3px 4px
+----------------------------------------------------------------------------
+Margin:(is the margin betwee two border/content
+
+margin-left/right/top/botton:
+
+Margin Shorthand:
+1) For all four sidess
+     - padding:50px;
+2) top & bottom | left and right
+     - padding: 1px 2px;
+3) top | left and right | bottom 
+     - padding: 1px 2px 3 px
+4) top| right | bottom | left
+     - padding 1px 2px 3px 4px
+
+------------------------------------------------------------------------------
+Inline Element mai padding is done on only left and right.
+
+*display property can change the type: div to inline as 
+-> display:inline-block;
+if we wish to not display any particular element or bblock we use 
+-> display:none;
+
+------------------------------------------------------------------------------
+font-size: inheritence wise increase/decrease krne ke liye we use 
+-> font-size:1.5em;
+
+// Snowball effect in EM's
+<section>
+-create 4 nested div..
+</section>
+and in css
+section{
+        font-size:25px;
+       }
+div{
+      font-size: 2em;
+   }
+create a snowball effects to solve it we use -> { REM's }
+-font-size; 2rem;
+will not create the effect 
+----------------------------------------------------------------------------
+Alpha Channel:(opacity)
+*ranges from 0-1
+-rgba(255,0,0,0)
+or use 
+-opacity:0-1;
+-----------------------------------------------------------------------------
+CSS Transition:
+
+   div{ 
+       background-color:green
+       transition:1s;/transation-duration:
+       transition-dealy:  ;
+       
+      }
+  div:hover{
+           background-color:black;
+
+            }
+Transation is shorthand;
+*Actual it is:
+transition : margin-top 2s ease-in-out 0.2s;
+-------------------------------------------------------------------------------
+div:nth-of-type(2n): will modify content even structures/way m jo honge same for 3n.
+------------------------------------------------------------------------------
+CSS Transform:(the element inside also transforms)
+1)Rotate:
+  - transform:Rotate(45deg);
+
+2)Scale:(size increase or decrease)
+  - transform:scale(0.5);//decrease half
+  - transform:scale(1.5);// increase
+  -transform:sacle(0.5,1.5);//x,y-axis
+
+3)Translate:(to move a element up or down)
+   - transform:translate(100px,50px);//x,y-axis along
+
+4)Skew:(to form trapezium like figure)
+   -transform:skew(30deg);//-90deg/90deg pe element vanishes
+
+-------------------------------------------------------------------------------
+BOX sHADOW:
+->box-shadow:x-offset y-offset blur-radius color;
+e.g.->box-shadow:2px 2px 10px green;
+
+-------------------------------------------------------------------------------
+Background Image:(let you set image at backgorund)
+-background-image: url(link);
+-background-size:contain/cover/auto;(repeat/crop)/strech)
+
+-------------------------------------------------------------------------------
+Postion:(sets how an element is positioned in a document)
+
+1)position:static;(the position properties have no effect)
+
+2)postion: relative;(the offset is relative to itself)
+
+3)position:absolute;(The element is removed from the normal documentation flow, and no space is created for the element in the page layout....It is positioned relative the its closest positioned ancestor , if any; otherwise , it is placed relative to initial containing block.)
+
+4)position:fixed;(best)
+always sticked to its position even when scrolling.
+
+
+
+
+***********************************************************************
+
+FLEXBOX:
+-> flexible Box Layout:
+it is a one dimensional layout method for arranging items in rows and columns.
+*The Flex MOdel:
+
+-> flex-direction:row;
+       -
+       -
+       -
+       -
+       -
+------------------------------------(Main Axis)
+       -
+       -
+       - 
+       -
+    (Cross Axis)
+
+
+
+-> flex-direction:column;
+       -
+       -
+       -
+       -
+       -
+------------------------------------(Cross Axis)
+       -
+       -
+       - 
+       -
+    (Main Axis)
+
+
+->flex-direction:row-reverse;(right to left)
+->flex-direction:column-reverse;(bottom to top)
+
+
+------------------------------------------------------------------------------
+
+JUSTIFY CONTENT:(tells how the browser distributes space between and around content items along the main axis)
+
+->Justify-content:flex-start;(elements will occupy spaces from left->right)
+
+->Justify-content:flex-end;(element will occupy spaces from right->left)
+
+->Justify-content:center;
+
+
+***EXTRA:
+Justify-content:space-between;(spaces in between occupying extra spaces in between in a container);
+
+Justify-content:space-around;(spaces in the end in unequal)
+
+justify-content:space-evenly;(for equal spaaces)
+
+------------------------------------------------------------------------
+
+Flex wrap:(sets whether items are **forced onto one line or can wrap** onto multiple lines
+
+->flex-wrap:nowrap;(width decrease krke fit-in a single line)
+
+->flex-wrap:wrap;(width compromise nhi hogi nextline m ajayega)
+
+->flex-wrap:wrap-reverse;(reverse the direction in respect to cross axis try and apply)
+
+----------------------------------------------------------------------------
+Align Item:(start from top or start from bottom)
+->align-items:flex-start;(elements are is same position but refernce starts from top)
+
+->align-items:flex-end;(elements are is same position but refernce starts from bottom)
+
+-> align-items:center;
+
+*To align a content in the same baseline(like in the notebook) we use:
+->align-items:baseline;
+
+------------------------------------------------------------------------------
+Flex Size:(shrink item size or grow)
+*if Flex direction:row;--------->main axis is width axis.
+*if Flex direction:column;--------->main axis is height axis.
+
+->flex-basis:100px;(it sets the initial main size of a flex items)
+
+->flex-grow:1(default)---->(grow in proportions)/(agar khaali space bachti hai main axis ke along, vo bchi hui sari space lelega...)
+
+
+->Flex-shrink:1;(in case of overflow)
+
+
+
+-----------------------------------------------------------------------------
+*****************************************************************************
+CSS grid:(setting a container's display to grid will make all children grid items)
+
+.container{
+     display:grid;
+}
+
+______________________________________________________________________________
+Grid template:(They define the lines adn track sizing(height between rows ->track+1=rows)
+
+->grid-template-columns:auto auto 100px.....;
+
+->grid-template-rows:auto auto 100px.....;
+
+->->grid-template-rows/columns:repeat(No. of boxes,1fr);//1 fraction;
+
+
+--------------------------------------------------------------------------------
+CSS Animation:
+
+-animation-name:anyname
+-animation-duration
+-animation-timing-delay
+-animation-iteration-count
+-animation-direction
+
+->shorthand:
+animation:anyname 3s ease-in 0s infinite normal;
+
+@keyframe anyname{
+              from{
+               font-size:20px;
+            }
+           to{
+            font size:40px;
+             } 
+           }
+
+percentage feature:
+
+@keyframes fontan {
+    0%{
+        background-color: aqua;
+        font-size: 30px;
+    }
+    30%{
+        background-color: blue;
+    }
+    60%{
+        background-color: green;
+        font-size: 50px;
+    }
+    90%{
+        background-color: orange;
+        font-size:80px;
+    }
+    98%{
+        background-color: red;
+    }
+}
+
+
+-------------------------------------------------------------------------------------
+Media Queries:(helps create a responsive website)
+
+media features-width 
+->@media (min-width:400px) {
+    h3{
+    background-color: red ;
+}
+}
+
+
+->@media (max-width:1000px) {
+    h3{
+    background-color: green ;
+}
+}
+
+
+->@media (min-width:400px)and(max-width:600px) {
+    h3{
+    background-color: red ;
+}
+}
+
+-----------------------------------------------------------------------------------------
+use flex wrap in @media to make it compatiable acc to phone display size)
+
+--------------------------------------------------------------------------------------------
+
+Z-INDEX:(it decides the stack level of elements)
+
+->jiski value jyada hogi vo screen ke samne(bada hokar overlap krdega) ajayega by default sabka z index 0(auto) hota h!!.......
+
+-> tabhi work krta h jab position:static or default na ho when we change it to position:relative;
+
+
+---------------------------------------------------------------------------------------
+cdnjs:
+->  
+
+
+-------------------------------------------------------------------------------------
+
+->we use line height kab hume jyada space chaiye rhti h for moving our cursor while clicking.
+
+->transform:scale(2)-> to increase size general;ly used when using hiver along with.
+
+
+->#check:checked ~ .sidebar{
+    left: 0px;
+    transition: all 0.2s linear;
+}
+#check:checked ~ .btn {
+    display: none;
+}
+
+---------------------------------------------------------------------------
+
+
+overflow:hidden
+ “overflow: hidden tells the browser:
+‘Show only what fits inside this box’”
+
+            </div>
+        </div>
         <div class="player">
             <div class="upper">
                 <span class="material-symbols-outlined"style="font-size: 30px;position: relative; left:47%; top: 15px;">skip_previous</span>
